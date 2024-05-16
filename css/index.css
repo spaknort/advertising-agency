@@ -1,0 +1,152 @@
+@import './components/header.css';
+
+.offer {
+    width: 100%;
+    padding: 64px 120px;
+    margin: 0 auto;
+    background: linear-gradient(70deg, #1F3050, #14326B);
+    padding-top: 150px;
+}
+
+.offer__main-text {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fafafa;
+}
+
+.offer__text {
+    color: #fafafa;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.services {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 48px;
+    gap: 32px;
+}
+
+.service-card {
+    width: 100%;
+    padding: 24px 32px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .15);
+}
+
+.service-card__title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.service-card__text {
+    font-size: .9rem;
+    font-weight: 400;
+    margin-top: 12px;
+    color: #333;
+}
+
+.service-card__btns {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.service-card__btn {
+    background: transparent;
+    padding: 12px 42px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 1px #1C89D1;
+    color: #1C89D1;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.employees {
+    margin: 64px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 32px;
+}
+
+.employees__left {
+    width: 50%;
+}
+
+.employees__text {
+    font-size: .9rem;
+    font-weight: 400;
+    margin-top: 12px;
+    color: #333;
+}
+
+.employees__right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.employee-card {
+    position: relative;
+}
+
+.employee-card__img {
+    width: 100%;
+    border-radius: 25px;
+    z-index: 0;
+}
+
+.employee-card__job-title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(-10deg);
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 5px;
+    background-color: #FF981E;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    margin-bottom: 48px;
+}
+
+.form__input {
+    width: 100%;
+    padding: 18px 24px;
+    border-radius: 5px;
+    border: solid 1px #cac9c9;
+    font-size: 1rem;
+    color: #333;
+}
+
+.form__input::placeholder {
+    font-size: 1rem;
+}
+
+.form__textarea {
+    padding: 18px 24px;
+    color: #333;
+    border: solid 1px #cac9c9;
+    border-radius: 5px;
+    font-size: 1rem;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 150px;
+}
